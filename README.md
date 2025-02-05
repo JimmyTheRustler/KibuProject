@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Kibu Interview Project
 
-## Getting Started
+First, place your db.json within the src\app directory
 
-First, run the development server:
+Path should look like this
+```bash
+KibuProject\src\app\db.json
+```
+
+Then, install the dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project utilizes NextJs with the App router, React, and Typescript
 
-## Learn More
+Functionality as a users includes:
 
-To learn more about Next.js, take a look at the following resources:
+-Member selection
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-Note creation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-Note viewing
 
-## Deploy on Vercel
+-Hover notes to view creation timestamps
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tools I utilized:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### [https://nextjs.org/docs/app](https://nextjs.org/docs/app)
+
+I used the NextJs documentation to help get up to speed on basic functions such as routing between pages, and fetching user data
+
+### [https://stackoverflow.com](https://stackoverflow.com)
+
+I utilized stackoverflow to help resolve errors and see how others have utilized NextJs for their solutions
+
+### [https://www.cursor.com/](https://www.cursor.com/)
+
+I utilized cursor ai to further diagnose errors and help with creating front-end css
